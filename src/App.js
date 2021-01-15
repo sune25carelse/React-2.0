@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="app">
+      <center>
       <h1>React 2.0</h1>
+      </center>
     </div>
   );
 }
