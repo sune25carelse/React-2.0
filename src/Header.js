@@ -1,4 +1,5 @@
 import React from 'react'
+import './Header.css';
 
 function Header() {
   return (
@@ -10,7 +11,11 @@ function Header() {
             />
         </div>
         <div className="header__right">
-            <h2>Buttons will go here...</h2>
+            <button>Login</button>        
+            <button>Register</button>        
+        </div>
+        <div className="header__right--mobile">
+            <h2>Burger menu</h2>        
         </div>
     </div>
   )
