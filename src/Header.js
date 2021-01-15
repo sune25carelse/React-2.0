@@ -1,5 +1,7 @@
 import React from 'react'
 import './Header.css';
+import MenuIcon from '@material-ui/icons/Menu';
+import { Button } from '@material-ui/core';
 
 function Header() {
   return (
@@ -11,11 +13,11 @@ function Header() {
             />
         </div>
         <div className="header__right">
-            <button>Login</button>        
-            <button>Register</button>        
+            <Button>Login</Button>        
+            <Button>Register</Button>        
         </div>
         <div className="header__right--mobile">
-            <h2>Burger menu</h2>        
+            <MenuIcon />
         </div>
     </div>
   )
