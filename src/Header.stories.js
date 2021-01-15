@@ -11,5 +11,7 @@ const Template = (args) => <Header {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {};
 
-export const Secondary = Template.bind({});
-Secondary.args = {};
+export const WithTitle = Template.bind({});
+WithTitle.args = {
+    title: "LUCA FAN SITE",
+};

@@ -3,7 +3,7 @@ import './Header.css';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Button } from '@material-ui/core';
 
-function Header() {
+function Header({ title }) {
   return (
     <div className="header">
         <div className="header__left">
@@ -12,6 +12,9 @@ function Header() {
                 alt=""
             />
         </div>
+
+        {title && <h2>{title}</h2>}
+
         <div className="header__right">
             <Button>Login</Button>        
             <Button>Register</Button>        
