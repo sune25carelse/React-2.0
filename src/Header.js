@@ -1,22 +1,11 @@
 import React from 'react'
 import './Header.css';
 import MenuIcon from '@material-ui/icons/Menu';
-import styled, { css } from "styled-components";
+import Button from './Components/Button';
 
 
 function Header({ title, userImage, darkMode }) {
-  const Button = styled.button`
-    margin: 10px;
-    padding: 20px;
-
-    ${(props) =>
-        props.darkMode &&
-        css`
-            background: gray;
-        `}
-  `;
-
-
+  
   return (
     <div className="header">
         <div className="header__left">
