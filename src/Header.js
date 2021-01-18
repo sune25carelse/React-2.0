@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css';
 import MenuIcon from '@material-ui/icons/Menu';
-import Button from './Components/Button';
+import Button, { SalesButton } from './Components/Button';
 
 
 function Header({ title, userImage, darkMode }) {
@@ -19,7 +19,8 @@ function Header({ title, userImage, darkMode }) {
 
         <div className="header__right">
             <Button darkMode={darkMode}>Login</Button>        
-            <Button>Register</Button>        
+            <Button>Register</Button>  
+            <SalesButton>BUY NOW</SalesButton>      
         </div>
         <div className="header__right--mobile">
             <MenuIcon />
