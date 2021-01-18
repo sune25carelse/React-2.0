@@ -4,9 +4,11 @@ import './App.css';
 import Header from './Header';
 
 function App() {
+  const darkMode = false;
+  
   return (
     <div className="app">
-     <Header />
+     <Header darkMode={darkMode} title='React 2.0' />
     </div>
   );
 }
